@@ -126,7 +126,10 @@ export default function WinRateDisplay({ stats, missing, isTrainRace, isHoard }:
   if (wr == null || stats == null) {
     return (
       <div className="flex flex-col items-center py-10">
-        <div className="font-germania text-8xl text-taz-parchment-dim tabular">
+        <div
+          className="font-germania text-8xl text-taz-parchment-dim tabular transition-[filter] duration-300 ease-in-out"
+          style={{ filter: `blur(${missing.length}px)` }}
+        >
           ——%
         </div>
         <div className="text-xs uppercase tracking-[0.3em] text-taz-parchment-dim mt-3">
@@ -146,10 +149,13 @@ export default function WinRateDisplay({ stats, missing, isTrainRace, isHoard }:
     <div className="flex flex-col items-center py-10">
       <div
         className={cn(
-          'relative inline-block font-germania text-8xl tabular leading-none drop-shadow-[0_0_24px_rgba(0,0,0,0.8)]',
-          !crossingBoundary && 'transition-[color] duration-300 ease-in-out',
+          'relative inline-block font-germania text-8xl tabular leading-none',
+          !crossingBoundary && 'transition-[color,filter] duration-300 ease-in-out',
         )}
-        style={{ color }}
+        style={{
+          color,
+          filter: `drop-shadow(0 0 24px rgba(0,0,0,0.8)) blur(${missing.length}px)`,
+        }}
       >
         <AnimatedNumber value={wr} duration={1.2} decimals={1} suffix="%" />
         <AnimatePresence>
