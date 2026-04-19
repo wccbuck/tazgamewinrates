@@ -93,7 +93,7 @@ export default function About() {
           The restriction seems unnecessary, and I don't like always feeling forced to play last-in-round as Priest, so I play with a house rule that the
           Priest may choose to heal at the end of <em>any</em> player's round.
           </li>
-          <li><strong className="text-taz-brass">Train/Race Decks:</strong> These two location decks are extremely difficult. You can fail only eight challenges total
+          <li><strong className="text-taz-brass">Train/Race Decks:</strong> These two location decks are extremely difficult. You can fail only eight challenges
           total and still hope to win. When I play these decks, I let players choose to discard their action token (if possible) instead of discarding a
           location card when they fail a challenge. This does increase win rate somewhat, but not as much as you'd think; however, it does give players a
           feeling of having more control over outcomes, as well as more opportunities to roleplay.
