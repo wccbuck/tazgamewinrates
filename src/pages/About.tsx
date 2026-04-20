@@ -16,8 +16,6 @@ export default function About() {
             <li><strong className="text-taz-brass">Location Cleared:</strong> Percentage of winning games where the location deck was completed.</li>
             <li><strong className="text-taz-brass">End-of-Location Losses:</strong> Only shows up when Train or Race location are chosen.
             Percentage of losing games where players lost due to reaching the end of the location deck, rather than running out of health.</li>
-            <li><strong className="text-taz-brass">End-of-Location Losses:</strong> Only shows up when Train or Race location are chosen.
-            Percentage of losing games where players lost due to reaching the end of the location deck, rather than running out of health.</li>
             <li><strong className="text-taz-brass">Nemesis Early/Late:</strong> Only shows up when Hoard relic is chosen.
             Win rate of games where the "Nemesis" card shows up early (first five cards) or late (last five cards).</li>
           </ul>
