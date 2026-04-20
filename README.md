@@ -24,9 +24,9 @@ npm run dev
 ## Data
 
 `src/data/winrates.json` is keyed by `villain-relic-location-<classes sorted
-alphabetically>` — e.g. `lich-staff-cave-bard-priest-rogue-warrior-wizard`. 3,456 rows
+alphabetically>`, e.g. `lich-staff-cave-bard-priest-rogue-warrior-wizard`. 3,456 rows
 total (6 × 6 × 6 deck combos × 16 class combos). Data originates from a separate
-simulator; edit the sheet, re-export, drop into `winrates.json`.
+simulator (<https://github.com/wccbuck/tazgamesim>); drop any updates into `winrates.json`.
 
 Lookup is in `src/lib/lookup.ts`: exact match for a full selection, aggregate/average for a partial one.
 
