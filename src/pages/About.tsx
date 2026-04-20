@@ -107,7 +107,7 @@ export default function About() {
           With this "level up" house rule, you can face off against deck combinations that get increasingly difficult without seeing a large dip in win rate. Suggested campaign:
           <ul className="list-disc list-outside pl-6 space-y-2 mt-2">
             <li>
-              <strong>Game 1:</strong> Lich, Staff, Carnival
+              <strong>Game 1:</strong> Lich, Sash, Carnival
             </li>
             <li>
               <strong>Game 2:</strong> Giant, Staff, Cave
